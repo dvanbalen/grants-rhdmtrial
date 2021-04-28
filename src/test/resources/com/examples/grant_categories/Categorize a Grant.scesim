@@ -109,7 +109,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">A123</rawValue>
+            <rawValue class="string">B456</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -168,7 +168,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">B456</rawValue>
+            <rawValue class="string">A123</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -205,7 +205,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">A123</rawValue>
+            <rawValue class="string">B456</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
