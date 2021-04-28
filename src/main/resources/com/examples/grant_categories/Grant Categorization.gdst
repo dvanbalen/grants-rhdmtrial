@@ -121,7 +121,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1000000</valueString>
+        <valueString>100000</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -154,7 +154,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1000000</valueString>
+        <valueString>100000</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
