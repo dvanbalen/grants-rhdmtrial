@@ -6,12 +6,36 @@ package com.examples.grant_categories;
 
 public class GrantApplication implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public GrantApplication() {
-    }
+	@org.kie.api.definition.type.Label(value = "Dollar Amount")
+	private java.lang.Double dollarAmount;
+	@org.kie.api.definition.type.Label(value = "Grant Category")
+	private java.lang.String category;
 
+	public GrantApplication() {
+	}
 
+	public java.lang.Double getDollarAmount() {
+		return this.dollarAmount;
+	}
 
+	public void setDollarAmount(java.lang.Double dollarAmount) {
+		this.dollarAmount = dollarAmount;
+	}
+
+	public java.lang.String getCategory() {
+		return this.category;
+	}
+
+	public void setCategory(java.lang.String category) {
+		this.category = category;
+	}
+
+	public GrantApplication(java.lang.Double dollarAmount,
+			java.lang.String category) {
+		this.dollarAmount = dollarAmount;
+		this.category = category;
+	}
 
 }
