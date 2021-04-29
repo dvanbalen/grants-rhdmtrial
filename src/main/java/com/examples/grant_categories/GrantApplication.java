@@ -28,6 +28,7 @@ public class GrantApplication implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("AIDS 2")
 	private java.lang.Character aids_2;
 
+	@org.kie.api.definition.type.Label("RFA PA Number")
 	private java.lang.String rfa_pa_number;
 
 	private java.lang.String strategic_category;
