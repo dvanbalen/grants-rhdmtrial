@@ -31,6 +31,7 @@ public class GrantApplication implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("RFA PA Number")
 	private java.lang.String rfa_pa_number;
 
+	@org.kie.api.definition.type.Label("Strategic Category")
 	private java.lang.String strategic_category;
 
 	private java.lang.String subcategory;
