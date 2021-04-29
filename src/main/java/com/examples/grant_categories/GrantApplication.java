@@ -13,6 +13,7 @@ public class GrantApplication implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Grant Category")
 	private java.lang.String category;
 
+	@org.kie.api.definition.type.Label("Mech Code")
 	private java.lang.String mech_code;
 
 	private java.lang.String approp;
