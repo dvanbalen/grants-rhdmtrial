@@ -19,6 +19,7 @@ public class GrantApplication implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Approp")
 	private java.lang.String approp;
 
+	@org.kie.api.definition.type.Label("Can Reimburse")
 	private java.lang.Character reimb_can;
 
 	@org.kie.api.definition.type.Label("Grant Type")
