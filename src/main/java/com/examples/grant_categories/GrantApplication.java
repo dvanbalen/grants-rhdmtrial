@@ -8,10 +8,28 @@ public class GrantApplication implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Dollar Amount")
+	@org.kie.api.definition.type.Label("Dollar Amount")
 	private java.lang.Double dollarAmount;
-	@org.kie.api.definition.type.Label(value = "Grant Category")
+	@org.kie.api.definition.type.Label("Grant Category")
 	private java.lang.String category;
+
+	private java.lang.String mech_code;
+
+	private java.lang.String approp;
+
+	private java.lang.Character reimb_can;
+
+	private java.lang.Long grant_type;
+
+	private java.lang.Character aids_2;
+
+	private java.lang.String rfa_pa_number;
+
+	private java.lang.String strategic_category;
+
+	private java.lang.String subcategory;
+
+	private java.lang.Boolean esi;
 
 	public GrantApplication() {
 	}
@@ -32,10 +50,96 @@ public class GrantApplication implements java.io.Serializable {
 		this.category = category;
 	}
 
+	public java.lang.String getMech_code() {
+		return this.mech_code;
+	}
+
+	public void setMech_code(java.lang.String mech_code) {
+		this.mech_code = mech_code;
+	}
+
+	public java.lang.String getApprop() {
+		return this.approp;
+	}
+
+	public void setApprop(java.lang.String approp) {
+		this.approp = approp;
+	}
+
+	public java.lang.Character getReimb_can() {
+		return this.reimb_can;
+	}
+
+	public void setReimb_can(java.lang.Character reimb_can) {
+		this.reimb_can = reimb_can;
+	}
+
+	public java.lang.Long getGrant_type() {
+		return this.grant_type;
+	}
+
+	public void setGrant_type(java.lang.Long grant_type) {
+		this.grant_type = grant_type;
+	}
+
+	public java.lang.Character getAids_2() {
+		return this.aids_2;
+	}
+
+	public void setAids_2(java.lang.Character aids_2) {
+		this.aids_2 = aids_2;
+	}
+
+	public java.lang.String getRfa_pa_number() {
+		return this.rfa_pa_number;
+	}
+
+	public void setRfa_pa_number(java.lang.String rfa_pa_number) {
+		this.rfa_pa_number = rfa_pa_number;
+	}
+
+	public java.lang.String getStrategic_category() {
+		return this.strategic_category;
+	}
+
+	public void setStrategic_category(java.lang.String strategic_category) {
+		this.strategic_category = strategic_category;
+	}
+
+	public java.lang.String getSubcategory() {
+		return this.subcategory;
+	}
+
+	public void setSubcategory(java.lang.String subcategory) {
+		this.subcategory = subcategory;
+	}
+
+	public java.lang.Boolean getEsi() {
+		return this.esi;
+	}
+
+	public void setEsi(java.lang.Boolean esi) {
+		this.esi = esi;
+	}
+
 	public GrantApplication(java.lang.Double dollarAmount,
-			java.lang.String category) {
+			java.lang.String category, java.lang.String mech_code,
+			java.lang.String approp, java.lang.Character reimb_can,
+			java.lang.Long grant_type, java.lang.Character aids_2,
+			java.lang.String rfa_pa_number,
+			java.lang.String strategic_category, java.lang.String subcategory,
+			java.lang.Boolean esi) {
 		this.dollarAmount = dollarAmount;
 		this.category = category;
+		this.mech_code = mech_code;
+		this.approp = approp;
+		this.reimb_can = reimb_can;
+		this.grant_type = grant_type;
+		this.aids_2 = aids_2;
+		this.rfa_pa_number = rfa_pa_number;
+		this.strategic_category = strategic_category;
+		this.subcategory = subcategory;
+		this.esi = esi;
 	}
 
 }
