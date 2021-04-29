@@ -37,6 +37,7 @@ public class GrantApplication implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Sub Category")
 	private java.lang.String subcategory;
 
+	@org.kie.api.definition.type.Label("ESI")
 	private java.lang.Boolean esi;
 
 	public GrantApplication() {
