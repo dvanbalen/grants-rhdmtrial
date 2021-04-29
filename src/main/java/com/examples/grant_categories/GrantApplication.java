@@ -23,6 +23,7 @@ public class GrantApplication implements java.io.Serializable {
 
 	private java.lang.Long grant_type;
 
+	@org.kie.api.definition.type.Label("AIDS 2")
 	private java.lang.Character aids_2;
 
 	private java.lang.String rfa_pa_number;
