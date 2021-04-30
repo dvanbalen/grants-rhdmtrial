@@ -239,7 +239,7 @@
       <header>Append To Strategic Category</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>$grant.setStrategic_category($grant.getStrategic_category()+&quot;@{addlCategory}&quot;);</text>
+          <text>$grant.setStrategic_category($grant.getStrategic_category()+&quot; @{addlCategory}&quot;);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
@@ -250,7 +250,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>229</width>
+          <width>100</width>
           <header>Append To Strategic Category</header>
           <varName>addlCategory</varName>
           <fieldType>Object</fieldType>
@@ -645,7 +645,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString> (ESI)</valueString>
+        <valueString>(ESI)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
