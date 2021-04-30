@@ -161,17 +161,17 @@
   <actionCols>
     <set-field-col52>
       <typedDefaultValue>
-        <valueString>Uncategorized</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>109</width>
-      <header>Grant Category</header>
+      <header>ESI Status</header>
       <boundName>$grant</boundName>
       <factField>category</factField>
       <type>String</type>
-      <valueList>A123, B456, C789, Uncategorized</valueList>
+      <valueList>ESI, Non ESI</valueList>
       <update>false</update>
     </set-field-col52>
     <set-field-col52>
@@ -296,7 +296,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>A123</valueString>
+        <valueString>ESI</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -369,7 +369,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>B456</valueString>
+        <valueString>Non ESI</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -443,7 +443,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Uncategorized</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
