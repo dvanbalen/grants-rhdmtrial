@@ -31,7 +31,6 @@
           <header>Amount Greater Than</header>
           <constraintValueType>3</constraintValueType>
           <factField>dollarAmount</factField>
-          <fieldType>Double</fieldType>
           <operator>&gt;</operator>
           <valueList>15000, 25000, 50000, 100000, 250000, 1000000</valueList>
           <parameters/>
@@ -48,7 +47,6 @@
           <header>Amount Less Than or Equal</header>
           <constraintValueType>3</constraintValueType>
           <factField>dollarAmount</factField>
-          <fieldType>Double</fieldType>
           <operator>&lt;=</operator>
           <valueList>15000, 25000, 50000, 100000, 250000, 1000000</valueList>
           <parameters/>
@@ -65,7 +63,6 @@
           <header>Mech Code Equals</header>
           <constraintValueType>1</constraintValueType>
           <factField>mech_code</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -81,7 +78,6 @@
           <header>Approp Equal To</header>
           <constraintValueType>1</constraintValueType>
           <factField>approp</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -97,7 +93,6 @@
           <header>Reimb_can Equal To</header>
           <constraintValueType>1</constraintValueType>
           <factField>reimb_can</factField>
-          <fieldType>Comparable</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -113,7 +108,6 @@
           <header>Grant_type Equal To</header>
           <constraintValueType>1</constraintValueType>
           <factField>grant_type</factField>
-          <fieldType>Long</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -129,7 +123,6 @@
           <header>Aids_2 NOT Equal To</header>
           <constraintValueType>1</constraintValueType>
           <factField>aids_2</factField>
-          <fieldType>Comparable</fieldType>
           <operator>!=</operator>
           <parameters/>
           <binding></binding>
@@ -145,7 +138,6 @@
           <header>Rfa_pa_number in comma separated list</header>
           <constraintValueType>1</constraintValueType>
           <factField>rfa_pa_number</factField>
-          <fieldType>String</fieldType>
           <operator>in</operator>
           <valueList></valueList>
           <parameters/>
@@ -417,7 +409,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Direct-0872(HL)</valueString>
+        <valueString>foo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -427,9 +419,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="long">3</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_LONG</dataType>
+        <valueString>3</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
