@@ -26,7 +26,7 @@ public class GrantApplication implements java.io.Serializable {
 	private java.lang.Long grant_type;
 
 	@org.kie.api.definition.type.Label("AIDS 2")
-	private java.lang.Character aids_2;
+	private String aids_2;
 
 	@org.kie.api.definition.type.Label("RFA PA Number")
 	private java.lang.String rfa_pa_number;
@@ -91,14 +91,6 @@ public class GrantApplication implements java.io.Serializable {
 		this.grant_type = grant_type;
 	}
 
-	public java.lang.Character getAids_2() {
-		return this.aids_2;
-	}
-
-	public void setAids_2(java.lang.Character aids_2) {
-		this.aids_2 = aids_2;
-	}
-
 	public java.lang.String getRfa_pa_number() {
 		return this.rfa_pa_number;
 	}
@@ -131,10 +123,18 @@ public class GrantApplication implements java.io.Serializable {
 		this.esi = esi;
 	}
 
+	public java.lang.String getAids_2() {
+		return this.aids_2;
+	}
+
+	public void setAids_2(java.lang.String aids_2) {
+		this.aids_2 = aids_2;
+	}
+
 	public GrantApplication(java.lang.Double dollarAmount,
 			java.lang.String category, java.lang.String mech_code,
 			java.lang.String approp, java.lang.Character reimb_can,
-			java.lang.Long grant_type, java.lang.Character aids_2,
+			java.lang.Long grant_type, java.lang.String aids_2,
 			java.lang.String rfa_pa_number,
 			java.lang.String strategic_category, java.lang.String subcategory,
 			java.lang.Boolean esi) {
