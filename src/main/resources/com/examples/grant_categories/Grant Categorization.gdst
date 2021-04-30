@@ -635,7 +635,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>THIS IS AN ESI GRANT</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -645,7 +645,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>(ESI)</valueString>
+        <valueString> (ESI)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
