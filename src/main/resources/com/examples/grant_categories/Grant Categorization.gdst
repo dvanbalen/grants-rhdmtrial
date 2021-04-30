@@ -134,6 +134,23 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>289</width>
+          <header>Rfa_pa_number in comma separated list</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>rfa_pa_number</factField>
+          <fieldType>String</fieldType>
+          <operator>in</operator>
+          <valueList></valueList>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -274,6 +291,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>A123</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -342,6 +364,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>B456</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -402,6 +429,11 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
