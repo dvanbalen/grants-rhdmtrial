@@ -6,12 +6,128 @@ package com.examples.grant_categories;
 
 public class GrantApplication implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public GrantApplication() {
-    }
+	@org.kie.api.definition.type.Label(value = "Dollar Amount")
+	private java.lang.Double dollarAmount;
+	@org.kie.api.definition.type.Label(value = "Grant Category")
+	private java.lang.String category;
+	@org.kie.api.definition.type.Label(value = "Mech Code")
+	private java.lang.String mech_code;
+	@org.kie.api.definition.type.Label(value = "Approp")
+	private java.lang.String approp;
+	@org.kie.api.definition.type.Label(value = "Can Reimburse")
+	private java.lang.String reimb_can;
+	@org.kie.api.definition.type.Label(value = "Grant Type")
+	private java.lang.Integer grant_type;
+	@org.kie.api.definition.type.Label(value = "Aids 2")
+	private java.lang.String aids_2;
+	@org.kie.api.definition.type.Label(value = "RFA PA Number")
+	private java.lang.String rfa_pa_number;
+	@org.kie.api.definition.type.Label(value = "Strategic Category")
+	private java.lang.String strategic_category;
+	@org.kie.api.definition.type.Label(value = "Sub Category")
+	private java.lang.String subcategory;
 
+	public GrantApplication() {
+	}
 
+	public java.lang.Double getDollarAmount() {
+		return this.dollarAmount;
+	}
 
+	public void setDollarAmount(java.lang.Double dollarAmount) {
+		this.dollarAmount = dollarAmount;
+	}
+
+	public java.lang.String getCategory() {
+		return this.category;
+	}
+
+	public void setCategory(java.lang.String category) {
+		this.category = category;
+	}
+
+	public java.lang.String getMech_code() {
+		return this.mech_code;
+	}
+
+	public void setMech_code(java.lang.String mech_code) {
+		this.mech_code = mech_code;
+	}
+
+	public java.lang.String getApprop() {
+		return this.approp;
+	}
+
+	public void setApprop(java.lang.String approp) {
+		this.approp = approp;
+	}
+
+	public java.lang.String getReimb_can() {
+		return this.reimb_can;
+	}
+
+	public void setReimb_can(java.lang.String reimb_can) {
+		this.reimb_can = reimb_can;
+	}
+
+	public java.lang.Integer getGrant_type() {
+		return this.grant_type;
+	}
+
+	public void setGrant_type(java.lang.Integer grant_type) {
+		this.grant_type = grant_type;
+	}
+
+	public java.lang.String getAids_2() {
+		return this.aids_2;
+	}
+
+	public void setAids_2(java.lang.String aids_2) {
+		this.aids_2 = aids_2;
+	}
+
+	public java.lang.String getRfa_pa_number() {
+		return this.rfa_pa_number;
+	}
+
+	public void setRfa_pa_number(java.lang.String rfa_pa_number) {
+		this.rfa_pa_number = rfa_pa_number;
+	}
+
+	public java.lang.String getStrategic_category() {
+		return this.strategic_category;
+	}
+
+	public void setStrategic_category(java.lang.String strategic_category) {
+		this.strategic_category = strategic_category;
+	}
+
+	public java.lang.String getSubcategory() {
+		return this.subcategory;
+	}
+
+	public void setSubcategory(java.lang.String subcategory) {
+		this.subcategory = subcategory;
+	}
+
+	public GrantApplication(java.lang.Double dollarAmount,
+			java.lang.String category, java.lang.String mech_code,
+			java.lang.String approp, java.lang.String reimb_can,
+			java.lang.Integer grant_type, java.lang.String aids_2,
+			java.lang.String rfa_pa_number,
+			java.lang.String strategic_category, java.lang.String subcategory) {
+		this.dollarAmount = dollarAmount;
+		this.category = category;
+		this.mech_code = mech_code;
+		this.approp = approp;
+		this.reimb_can = reimb_can;
+		this.grant_type = grant_type;
+		this.aids_2 = aids_2;
+		this.rfa_pa_number = rfa_pa_number;
+		this.strategic_category = strategic_category;
+		this.subcategory = subcategory;
+	}
 
 }
