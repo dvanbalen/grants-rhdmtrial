@@ -203,7 +203,7 @@
       <factField>category</factField>
       <type>String</type>
       <valueList>ESI, Non ESI</valueList>
-      <update>false</update>
+      <update>true</update>
     </set-field-col52>
     <set-field-col52>
       <typedDefaultValue>
