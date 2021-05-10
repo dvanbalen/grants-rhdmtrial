@@ -2,6 +2,8 @@ Payload for executing rules from Swagger
 =======================
 
                                                                                                                                                                                                 {
+```
+{
   "lookup": "grants-ksession",
   "commands": [ {
       "insert": {
@@ -33,3 +35,4 @@ Payload for executing rules from Swagger
     }
   ]
 }
+```
